@@ -1,44 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Fuente-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <!--Hoja de estilos-->
-    <link rel="stylesheet" href="css/styles.css">
+  <!--Fuente-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <!--Hoja de estilos-->
+  <link rel="stylesheet" href="css/styles.css">
   <title>Cart Page</title>
 </head>
-<body class="cart-page">
-    <!--Navegación-->
-    <header>
-      <nav>
-        <div class="nav-principal">
-          <ul>
-            <li><a href="#"><img src="img/logo1.svg"></a></li>
-            <li><a href="#">Catálogo</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a href="#">Nosotros</a></li>
-            <li><a href="#"><img src="img/Carrito.svg" alt="Enlace hacía carrito de compras"></a></li>
-            <li><a href="#"><img src="img/user.svg" alt="Enlace hacia perfil"></a></li>
-          </ul>
-        </div>
-        <div>
-          <form>
-            <div class="search-input">
-                <input type="search" class="search-input__bar" name="Email" placeholder="¡Busca un artículo!">
-                <input class="button--submit" src="img/lupa.svg" type="image">
-            </div>
-          </form>
-        </div>
-      </nav>
-    </header>
-    <!--Navegación-->
 
-      <!--Footer-->
+<body class="cart-page">
+  <!--Navegación-->
+  <header>
+    <nav>
+      <div class="nav-principal">
+        <ul>
+          <li><a href="#"><img src="img/logo1.svg"></a></li>
+          <li><a href="#">Catálogo</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#">Nosotros</a></li>
+          <li><a href="#"><img src="img/Carrito.svg" alt="Enlace hacía carrito de compras"></a></li>
+          <li><a href="#"><img src="img/user.svg" alt="Enlace hacia perfil"></a></li>
+        </ul>
+      </div>
+      <div>
+        <form>
+          <div class="search-input">
+            <input type="search" class="search-input__bar" name="Email" placeholder="¡Busca un artículo!">
+            <input class="button--submit" src="img/lupa.svg" type="image">
+          </div>
+        </form>
+      </div>
+    </nav>
+  </header>
+  <!--Navegación-->
+  <!--Content-->
+  <section class="cart">
+    <div class="cart-block">
+      <h2>Producto</h2>
+      <ul class="cart-product-column">
+        <li class="cart-product-column__product"><p>Collar para gato</p></li>
+        <li class="cart-product-column__product"><p>Collar Lazo elegante</p></li>
+        <li class="cart-product-column__product"><p>Suéter Tejido Navideño</p></li>
+      </ul>
+
+      <h2>Precio</h2>
+      <ul class="cart-price-column">
+        <li class="cart-price-column__price"><p>₡1000</p></li>
+        <li class="cart-price-column__price"><p>₡1500</p></li>
+        <li class="cart-price-column__price"><p>₡4000</p></li>
+      </ul>
+
+      <h2>Cantidad</h2>
+      <ul class="cart-amount-column">
+        <li class="cart-amount-column__amount">
+          <p>1</p>
+          <a href="#"><img src="" alt=""><img src="img/icon-arrow-top.png" alt=""></a>
+          <a href="#"><img src="" alt=""><img src="img/icon-arrow-top.png" alt=""></a>
+        </li>
+        <li class="cart-amount-column__amount">
+          <p>2</p>
+          <a href="#"><img src="" alt=""><img src="img/icon-arrow-top.png" alt=""></a>
+          <a href="#"><img src="" alt=""><img src="img/icon-arrow-top.png" alt=""></a>
+        </li>
+        <li class="cart-amount-column__amount">
+          <p>4</p>
+          <a href="#"><img src="" alt=""><img src="img/icon-arrow-top.png" alt=""></a>
+          <a href="#"><img src="" alt=""><img src="img/icon-arrow-top.png" alt=""></a>
+        </li>
+      </ul>
+
+      <ul class="cart-delete-column">
+        <li class="cart-delete-column__button">
+          <a href="#"><img src="img/icon-trash.png" alt=""></a>
+        </li>
+        <li class="cart-delete-column__button">
+          <a href="#"><img src="img/icon-trash.png" alt=""></a>
+        </li>
+        <li class="cart-delete-column__button">
+          <a href="#"><img src="img/icon-trash.png" alt=""></a>
+        </li>
+      </ul>
+    </div>
+    <div class="cart-buttom-buttons">
+      <a href="#" class="cart-buttom-buttons__back-button"><h3>Volver</h3></a>
+      <a href="#" class="cart-buttom-buttons__end-button"><h3>Finalizar compra</h3></a>
+    </div>
+  </section>
+  <!--Content-->
+
+  <!--Footer-->
   <footer class="footer">
     <div class="footer__copyright">
       <img class="copyright" src="img/patita-logo.png">
@@ -56,11 +114,13 @@
     </div>
     <div class="footer__social">
       <p>Redes Sociales</p>
-      <a href="https://www.facebook.com/messages/t/102359524991387"><img src="img/Messenger.svg" alt="Enlace vía Messenger"></a>
+      <a href="https://www.facebook.com/messages/t/102359524991387"><img src="img/Messenger.svg"
+          alt="Enlace vía Messenger"></a>
       <a href=""><img src="img/Telegram.svg" alt="Enlace vía Telegram"></a>
       <a href=""><img src="img/WhatsApp.svg" alt="Enlace vía WhatsApp"></a>
     </div>
   </footer>
   <!--Footer-->
 </body>
+
 </html>
