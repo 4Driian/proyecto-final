@@ -27,9 +27,6 @@ p {
   font-weight: 500;
 }
 
-.design-text p{
-  margin: 20px;
-}
 /*Navegación*/
 .nav-principal ul{
   list-style: none;
@@ -59,8 +56,7 @@ p {
 .search-input {
   display: flex;
   align-items: center;
-  margin-left: 750px;
-  
+  margin-left: 650px;
 }
 
 .search-input__bar{
@@ -70,7 +66,7 @@ p {
   padding: 10px 5px;
   font-size: 15px;
   border: none;
-  background: #FFF8DB;
+  background: #fff8DB;
   border-radius: 87px 0px 0px 87px ;
 }
 
@@ -87,7 +83,7 @@ p {
   padding: 5px 50px;
   border: none;
   border-radius: 0px 87px 87px 0px ;
-  background: #FFF8DB;
+  background: #fff8DB;
   transition: background-color .3s ease-in-out;
   width: 30px;
 }
@@ -140,17 +136,17 @@ p {
 }
 
 .button-white--big:hover, .button-white--small:hover, .button-white--x:hover {
-  background: #D6D6D6;
+  background: #d6d6d6;
   transition: all  0.2s;
 }
 
 .button-white--big:active, .button-white--small:active, .button-white--x:hover {
-  background: #C0C0C0;
+  background: #c0c0c0;
   color: white;
 }
 
 .button-yellow--small {
-  background: #FEEB9C;
+  background: #feeb9c;
   border-radius: 20px;
   box-shadow: 10px 12px 7px -1px rgba(0, 0, 0, 0.25);
   color: black;
@@ -161,7 +157,7 @@ p {
 }
 
 .button-yellow--small2 {
-  background: #FFF8DB;
+  background: #fff8db;
   border-radius: 20px;
   box-shadow: 10px 12px 7px -1px rgba(0, 0, 0, 0.25);
   color: black;
@@ -172,12 +168,12 @@ p {
 }
 
 .button-yellow--small:hover, .button-yellow--small2:hover {
-  background: #DFC764;
+  background: #dfc764;
   transition: all  0.2s;
 }
 
 .button-yellow--small:active, .button-yellow--small2:active {
-  background: #C6B058;
+  background: #c6b058;
   color: white;
 }
 
@@ -189,15 +185,15 @@ p {
 }
 
 .color1 {
-  background: #C6B058 ;
+  background: #c6b058 ;
 }
 
 .color2 {
-  background: #DFC764 ;
+  background: #dfc764 ;
 }
 
 .color3 {
-  background: #FEEB9C ;
+  background: #feeb9c ;
 }
 
 .color4 {
@@ -205,7 +201,7 @@ p {
 }
 
 .color5 {
-  background: #FFF8DB;
+  background: #fff8dB;
 }
 
 .color6 {
@@ -214,19 +210,19 @@ p {
 }
 
 .color7 {
-  background: #D9D9D9;
+  background: #4e4e4e;
 }
 
 .color8 {
-  background: #6A6A6A;
+  background: #6a6a6a;
 }
 
 .color9 {
-  background: #C0C0C0;
+  background: #c0c0c0;
 }
 
 .color10 {
-  background: #D6D6D6;
+  background: #d6d6d6;
 }
 
 .color11 {
