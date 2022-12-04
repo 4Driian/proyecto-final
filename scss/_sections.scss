@@ -1,0 +1,28 @@
+.product-square__beige {
+  width: 628px;
+  height: 422px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF8DB;
+  border-radius: 36px;
+  box-shadow: 10px 10px 12px #6a6a6a;
+  margin-bottom: 20px;
+}
+
+.option-product {
+  position: relative;
+  top: -144px;
+  left: 452px;
+}
+
+.section-topic {
+  width: 1382px;
+  height: 83px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 356px;
+  margin-top: 200px;
+}
