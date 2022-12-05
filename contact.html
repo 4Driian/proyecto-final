@@ -11,7 +11,7 @@
   <!--Hoja de estilos-->
   <link rel="icon" href="img/patita-logo.png">
   <link rel="stylesheet" href="css/styles.css">
-  <title>Benito Shop</title>
+  <title>CONTACTO | Benito Shop</title>
 </head>
 <body>
   <div id="wrapper">
@@ -37,20 +37,38 @@
         </div>
       </nav>
     </header>
-    <section class="second-ad content">
-      <div>
-        <div class="principal-ad">
-          <h1>Encuentra lo que <br> buscas para tu mascota!</h1>
-          <p>Echa un vistazo al catálogo!</p>
-          <a class="button-white--big" href="#">VER AHORA</a>
+    
+    <div class="contact content">
+      <h2>Contacto</h2>
+      <form class="contact__form">
+        <div>
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" class="contact__input" placeholder="Adrian" required>
         </div>
-        <div class="second-ad--box">
-          <h2>Explorá la temporada de navidad!</h2>
-          <a class="button-white--small" href="#">Ver artículos</a>
+        <div>
+          <label for="Apellido">Apellido</label>
+          <input type="text" name="Apellido" class="contact__input" placeholder="Perez" required>
         </div>
-      </section>
-    </div>
+        <div>
+          <label for="Correo">Correo</label>
+          <input type="email" name="Correo" class="contact__input--email" placeholder="Nombre@Ejemplo.com" required>
+        </div>
+        <div>
+          <label for="Numero">Número</label>
+          <input type="tel" name="Numero" class="contact__input" placeholder="88888888" required>
+        </div>
+        <div>
+          <label for="Fecha">Fecha de consulta</label>
+          <input type="date" name="Fecha" class="contact__input">
+        </div>
+        <div>
+          <p class="contact__form--p">Fecha de consulta</p>
+          <textarea class="contact__box-text" placeholder="Escribe aquí tu consulta!" required></textarea>
+          <button class="button-white--big" type="submit">Enviar</button>
+        </div>
+    </form>
   </div>
+  
   <footer class="footer">
     <div class="footer__copyright">
       <img class="copyright" src="img/patita-logo.png">
@@ -73,5 +91,6 @@
       <a href=""><img src="img/WhatsApp.svg" alt="Enlace vía WhatsApp"></a>
     </div>
   </footer>
+</div>
 </body>
 </html>

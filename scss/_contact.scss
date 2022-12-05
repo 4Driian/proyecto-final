@@ -1,0 +1,82 @@
+
+
+.contact h2 {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.contact__form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 150px 320px;
+}
+
+.contact__form button {
+  margin-left: 450px;
+  margin-top: 130px;
+}
+
+.contact__form label, .contact__form--p {
+  display: block;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 42px;
+  padding: 15px;
+}
+
+.contact__input {
+  background: #fff8DB;
+  border-radius: 23px;
+  border: none;
+  box-shadow: 10px 12px 7px -1px rgba(0, 0, 0, 0.25);
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 90px;
+  min-height: 72px;
+  min-width: 400px;
+  padding: 15px;
+}
+
+.contact__input--email {
+  background: #fff8DB;
+  border-radius: 23px;
+  border: none;
+  box-shadow: 10px 12px 7px -1px rgba(0, 0, 0, 0.25);
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 90px;
+  min-height: 72px;
+  padding: 15px;
+  width: 1043px;
+}
+
+.contact__box-text {
+  background:#fff8DB;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 10px 12px 7px -1px rgba(0, 0, 0, 0.25);
+  display: block;
+  margin-bottom: 20px;
+  min-height: 268px;
+  padding: 15px;
+  width: 1043px;
+}
+
+.contact__input:focus, .contact__input--email:focus, .contact__box-text:focus {
+  box-shadow: 2px 1px 16px 5px rgba(0, 0, 0, 0.404);
+  transition: all 0.3s ease-in-out;
+  outline: none;
+}
+
+.contact__input:hover, .contact__input--email:hover, .contact__input--email:hover,.contact__box-text:hover {
+  transition: all 0.3s ease-in-out;
+  box-shadow: 2px 1px 16px 5px rgba(0, 0, 0, 0.404);
+}
+
+.contact__input:active, .contact__input:valid, .contact__input--email:active, .contact__input--email:active,.contact__box-text:active ,button:active {
+  transform: scale(0.80);
+}
