@@ -10,3 +10,17 @@
   box-shadow: 10px 10px 12px #6a6a6a;
   margin-bottom: 20px;
 }
+@media (min-width: 768px) and (max-width:960px){
+  .product-square__beige {
+    width: 580px;
+    height: 422px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF8DB;
+    border-radius: 36px;
+    box-shadow: 10px 10px 12px #6a6a6a;
+    margin-bottom: 20px;
+  }
+}
