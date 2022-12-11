@@ -1,4 +1,4 @@
-.product-square__yellow{
+.product-square__yellow {
   width: 628px;
   height: 422px;
   display: flex;
@@ -8,4 +8,23 @@
   background-color: #FEEB9C;
   border-radius: 36px;
   box-shadow: 10px 10px 12px #6a6a6a;
+}
+
+@media (max-width: 640px) {
+  .product-square__yellow {
+    width: 823px;
+    height: 422px;
+  }
+}
+
+@media (min-width: 641px) and (max-width:960px) {
+  .product-square__yellow {
+    width: 525px;
+  }
+}
+
+@media (min-width: 961px) and (max-width:1024px) {
+  .product-square__yellow {
+    width: 570px;
+  }
 }
