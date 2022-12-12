@@ -1,16 +1,53 @@
 .about-us {
-  background-image: url(../img/blur-rectangle.svg);
-  background-repeat: no-repeat;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
   padding-bottom: 90px;
   padding-top: 90px;
 }
 
 .about-us__content {
+
   padding: 50px;
   display: block;
 }
 
 .about-us h3 {
   text-align: center;
+    font-size: 50px;
+}
+
+@media (max-width: 640px) {
+  #wrapper {
+    width: 100%;
+  }
+
+  .about-us__content {
+    text-align: center;
+    display: block;
+  }
+
+  .about-us__content p {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+  #wrapper {
+    width: 100%;
+  }
+
+  .about-us__content {
+    text-align: center;
+    display: block;
+  }
+}
+
+@media (min-width: 961px)  and (max-width: 1024px) {
+  #wrapper {
+    width: 100%;
+  }
+
+  .about-us__content {
+    text-align: center;
+    display: block;
+  }
 }
