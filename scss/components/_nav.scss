@@ -1,5 +1,5 @@
 /*Navegación*/
-#navigation__menu, .logo-pagina {
+#navigation__menu, .logo-pagina, .search-input {
   display: none;
 }
 
@@ -121,9 +121,8 @@
   border-radius: 3px;
   z-index: 1;
   transform-origin: 4px 0px;
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), background 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.55s ease;
+  box-shadow: 2px 1px 16px 5px rgba(0, 0, 0, 0.155);
 }
 
 #navigation__menu span:first-child {
@@ -153,6 +152,7 @@
 }
 
 #navigation__links {
+  box-shadow: 2px 1px 16px 5px rgba(0, 0, 0, 0.404);
   position: absolute;
   margin: -100px 0 0 -50px;
   padding: 50px;
@@ -176,7 +176,7 @@
 
 #navigation__links li:hover {
   transition: all 0.2s;
-  text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.36);
+  text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.049);
 }
 
 #navigation__menu input:checked ~ ul {
