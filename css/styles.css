@@ -551,6 +551,10 @@ p {
 }
 
 /*Botones*/
+.enlaces {
+  margin: 25px;
+}
+
 .button-white--big {
   background: white;
   border-radius: 25px;
