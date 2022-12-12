@@ -20,25 +20,45 @@
   <!--Navegación-->
   <header>
     <nav>
-      <div class="nav-principal">
-        <ul>
-          <li><a href="#"><img src="img/logo1.svg"></a></li>
-          <li><a href="#">Catálogo</a></li>
-          <li><a href="#">Contacto</a></li>
-          <li><a href="#">Nosotros</a></li>
-          <li><a href="#"><img src="img/Carrito.svg" alt="Enlace hacía carrito de compras"></a></li>
-          <li><a href="#"><img src="img/user.svg" alt="Enlace hacia perfil"></a></li>
-        </ul>
-      </div>
-      <div>
-        <form>
-          <div class="search-input">
-            <input type="search" class="search-input__bar" name="Email" placeholder="¡Busca un artículo!">
-            <input class="button--submit" src="img/lupa.svg" type="image">
-          </div>
-        </form>
-      </div>
-    </nav>
+      <nav role="navigation">
+        <div class="logo-pagina">
+          <a href="index.html"><img src="img/logo1.svg" alt=""></a>
+        </div>
+        <div id="navigation__menu">
+          <input type="checkbox"/>
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="navigation__links">
+            <a href="index.html"><li>Inicio</li></a>
+            <a href="products.html"><li>Catálogo</li></a>
+            <a href="contact.html"><li>Contacto</li></a>
+            <a href="about_us.html"><li>Nosotros</li></a>
+            <a href="cart-page-empty.html"><li><img src="img/Carrito.svg" alt="Enlace hacía carrito de compras"></li></a>
+            <a href="#"><li><img src="img/user.svg" alt="Enlace hacia perfil"></li></a>
+          </ul>
+        </div>
+      </nav>
+      <nav>
+        <div class="nav-principal">
+          <ul>
+            <li><a href="index.html"><img src="img/logo1.svg"></a></li>
+            <li><a href="products.html">Catálogo</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+            <li><a href="about_us.html">Nosotros</a></li>
+            <li><a href="#"><img src="img/Carrito.svg" alt="Enlace hacía carrito de compras"></a></li>
+            <li><a href="#"><img src="img/user.svg" alt="Enlace hacia perfil"></a></li>
+          </ul>
+        </div>
+        <div>
+          <form>
+            <div class="search-input">
+              <input type="search" class="search-input__bar" name="search" placeholder="¡Busca un artículo!">
+              <input class="button--submit" src="img/lupa.svg" type="image">
+            </div>
+          </form>
+        </div>
+      </nav>
   </header>
   <!--Navegación-->
   <!--Content-->

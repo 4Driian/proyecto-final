@@ -129,19 +129,15 @@
     display: flex;
     justify-content: space-around;
   }
-
   .logo-pagina img {
     padding-top: 25px;
   }
-
   .nav-principal {
     display: none;
   }
-
   .search-input {
     display: none;
   }
-
   #navigation__menu {
     display: block;
     position: relative;
@@ -149,13 +145,11 @@
     left: 50px;
     z-index: 1;
   }
-
   #navigation__menu a {
     text-decoration: none;
     color: #232323;
     transition: color 0.3s ease;
   }
-
   #navigation__menu input {
     display: block;
     width: 40px;
@@ -167,7 +161,6 @@
     opacity: 0;
     z-index: 2;
   }
-
   #navigation__menu span {
     display: block;
     width: 33px;
@@ -181,30 +174,24 @@
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
     box-shadow: 2px 1px 16px 5px rgba(0, 0, 0, 0.155);
   }
-
   #navigation__menu span:first-child {
     transform-origin: 0% 0%;
   }
-
   #navigation__menu span:nth-last-child(2) {
     transform-origin: 0% 100%;
   }
-
   #navigation__menu input:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
     background: #232323;
   }
-
   #navigation__menu input:checked ~ span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
   }
-
   #navigation__menu input:checked ~ span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
   }
-
   #navigation__links {
     box-shadow: 2px 1px 16px 5px rgba(0, 0, 0, 0.404);
     position: absolute;
@@ -219,19 +206,16 @@
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
     border-radius: 50px;
   }
-
   #navigation__links li {
     padding: 10px 0;
     font-size: 22px;
     font-weight: 700;
     font-size: 32px;
   }
-
   #navigation__links li:hover {
     transition: all 0.2s;
     text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.049);
   }
-
   #navigation__menu input:checked ~ ul {
     transform: none;
   }
@@ -241,19 +225,15 @@
     display: flex;
     justify-content: space-around;
   }
-
   .logo-pagina img {
     padding-top: 25px;
   }
-
   .nav-principal {
     display: none;
   }
-
   .search-input {
     display: none;
   }
-
   #navigation__menu {
     display: block;
     position: relative;
@@ -261,13 +241,11 @@
     left: 50px;
     z-index: 1;
   }
-
   #navigation__menu a {
     text-decoration: none;
     color: #232323;
     transition: color 0.3s ease;
   }
-
   #navigation__menu input {
     display: block;
     width: 40px;
@@ -279,7 +257,6 @@
     opacity: 0;
     z-index: 2;
   }
-
   #navigation__menu span {
     display: block;
     width: 33px;
@@ -292,30 +269,24 @@
     transform-origin: 4px 0px;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
   }
-
   #navigation__menu span:first-child {
     transform-origin: 0% 0%;
   }
-
   #navigation__menu span:nth-last-child(2) {
     transform-origin: 0% 100%;
   }
-
   #navigation__menu input:checked ~ span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
     background: #232323;
   }
-
   #navigation__menu input:checked ~ span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
   }
-
   #navigation__menu input:checked ~ span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
   }
-
   #navigation__links {
     position: absolute;
     margin: -100px 0 0 -50px;
@@ -329,19 +300,16 @@
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
     border-radius: 50px;
   }
-
   #navigation__links li {
     padding: 10px 0;
     font-size: 22px;
     font-weight: 700;
     font-size: 32px;
   }
-
   #navigation__links li:hover {
     transition: all 0.2s;
     text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.36);
   }
-
   #navigation__menu input:checked ~ ul {
     transform: none;
   }
@@ -382,20 +350,16 @@ footer {
   h3 {
     font-size: 50px;
   }
-
   footer {
     width: 1177px;
     flex-direction: column-reverse;
   }
-
   .footer__social {
     margin-bottom: 20px;
   }
-
   .footer__questions {
     margin-bottom: 70px;
   }
-
   .footer__questions ul {
     font-size: 50px;
   }
@@ -404,20 +368,16 @@ footer {
   h3 {
     font-size: 50px;
   }
-
   footer {
     width: 1231px;
     flex-direction: column-reverse;
   }
-
   .footer__social {
     margin-bottom: 20px;
   }
-
   .footer__questions {
     margin-bottom: 70px;
   }
-
   .footer__questions ul {
     font-size: 50px;
   }
@@ -811,25 +771,20 @@ footer {
   #wrapper {
     width: 100%;
   }
-
   .principal-ad {
     width: 98%;
   }
-
   .principal-ad a {
     padding: 41px 90px;
     margin-left: 541px;
   }
-
   .second-ad--box {
     margin-top: 90px;
   }
-
   .second-ad--box a {
     position: absolute;
     left: 371px;
   }
-
   .second-ad--box {
     width: 75%;
   }
@@ -838,37 +793,29 @@ footer {
   #wrapper {
     width: 100%;
   }
-
   .navigation {
     display: none;
   }
-
   h1 {
     font-size: 60px;
   }
-
   h2 {
     font-size: 40px;
   }
-
   .principal-ad {
     width: 70%;
   }
-
   .principal-ad a {
     padding: 20px 30px;
     margin-left: 470px;
   }
-
   .second-ad {
     padding: 75px 0px 75px 75px;
     padding-bottom: 150px;
   }
-
   .second-ad--box {
     margin-top: 90px;
   }
-
   .second-ad--box a {
     position: absolute;
     left: 512px;
@@ -878,32 +825,26 @@ footer {
   #wrapper {
     width: 100%;
   }
-
   .navigation {
     display: none;
   }
-
   .principal-ad {
     margin-top: 50px;
     width: 70%;
   }
-
   .principal-ad a {
     position: relative;
     padding: 30px 40px;
     margin-top: 30px;
     margin-left: 460px;
   }
-
   .second-ad {
     padding-bottom: 150px;
   }
-
   .second-ad--box {
     position: relative;
     margin-top: 150px;
   }
-
   .second-ad--box a {
     position: absolute;
     left: 512px;
@@ -948,31 +889,25 @@ footer {
   #wrapper {
     width: 1277px;
   }
-
   .products-info-container {
     display: block;
   }
-
   .section-container {
     height: 1147px;
     width: 814px;
   }
-
   .nav-principal ul {
     width: 1177px;
   }
-
   .search-input {
     display: flex;
     align-items: center;
     margin-left: 361px;
   }
-
   .product-square__yellow {
     width: 785px;
     height: 422px;
   }
-
   footer {
     width: 1229px;
   }
@@ -981,25 +916,20 @@ footer {
   #wrapper {
     width: 1331px;
   }
-
   .nav-principal ul {
     width: 1180px;
   }
-
   .search-input {
     display: flex;
     align-items: center;
     margin-left: 361px;
   }
-
   .products-info-container {
     width: 1302px;
   }
-
   .section-container {
     width: 1392px;
   }
-
   footer {
     width: 1263px;
   }
@@ -1008,25 +938,20 @@ footer {
   #wrapper {
     width: 1331px;
   }
-
   .nav-principal ul {
     width: 1180px;
   }
-
   .search-input {
     display: flex;
     align-items: center;
     margin-left: 361px;
   }
-
   .products-info-container {
     width: 1302px;
   }
-
   .section-container {
     width: 1388px;
   }
-
   footer {
     width: 1263px;
   }
@@ -1093,21 +1018,17 @@ footer {
   #wrapper {
     width: 100%;
   }
-
   .product-card {
     flex-direction: column-reverse;
   }
-
   .product-card--box {
     padding: 0px 0px 60px 0px;
     text-align: center;
     position: relative;
   }
-
   .product-card__box--white {
     margin-top: 60px;
   }
-
   .product-card--box a {
     top: 520px;
     left: 20px;
@@ -1117,29 +1038,24 @@ footer {
   #wrapper {
     width: 100%;
   }
-
   .product-card {
     margin-bottom: 270px;
   }
-
   .product-card--box a {
     top: 470px;
     left: 20px;
   }
-
   .product-card--box {
     width: 50%;
     position: relative;
     margin-top: 150px;
   }
-
   .product-card__box--white {
     left: 50px;
     bottom: -137px;
     position: relative;
     width: 45%;
   }
-
   .product-card__box--white button {
     position: relative;
     top: 42px;
@@ -1149,11 +1065,9 @@ footer {
   #wrapper {
     width: 100%;
   }
-
   .product-card {
     margin-bottom: 320px;
   }
-
   .product-card--box {
     padding: 0px 0px 60px 0px;
     text-align: center;
@@ -1164,13 +1078,11 @@ footer {
     border-radius: 84px;
     margin-top: 150px;
   }
-
   .product-card--box a {
     position: absolute;
     top: 520px;
     left: 20px;
   }
-
   .product-card__small-box {
     position: absolute;
     width: 40%;
@@ -1180,7 +1092,6 @@ footer {
     bottom: 0;
     right: 0;
   }
-
   .product-card__box--white {
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.103);
     text-align: center;
@@ -1190,7 +1101,6 @@ footer {
     position: relative;
     width: 50%;
   }
-
   .product-card__box--white button {
     position: relative;
     top: 113px;
@@ -1209,13 +1119,17 @@ footer {
 .cart-empty-content h2 {
   font-weight: 700;
 }
+.cart-empty-content img {
+  width: 60%;
+  margin: 50px 0;
+}
 
 .cart-empty-block {
   width: 100%;
   background-color: #FEEB9C;
   box-shadow: 10px 12px 7px -1px rgba(0, 0, 0, 0.25);
   border-radius: 84px;
-  min-height: 650px;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1370,67 +1284,53 @@ footer {
 }
 
 @media (max-width: 640px) {
-  h2 {
+  .cart h2 {
     font-size: 25px;
   }
-
-  h3 {
+  .cart h3 {
     font-size: 22px;
   }
-
-  p {
+  .cart p {
     font-size: 21px;
   }
-
   .cart-block {
     min-height: 500px;
   }
-
   .cart-product-column__product {
     padding: 18px 0;
   }
-
   .cart-price-column__price {
     padding: 18px 0;
   }
-
   .cart-delete-column {
     gap: 65px;
   }
-
   .cart-delete-column__button {
     width: 18px;
   }
 }
 @media (min-width: 641px) and (max-width: 1100px) {
-  h2 {
+  .cart h2 {
     font-size: 35px;
   }
-
-  h3 {
+  .cart h3 {
     font-size: 32px;
   }
-
-  p {
+  .cart p {
     font-size: 31px;
   }
-
   .cart-block {
     min-height: 600px;
   }
-
   .cart-product-column__product {
     padding: 10px;
   }
-
   .cart-price-column__price {
     padding: 10px;
   }
-
   .cart-delete-column {
     gap: 50px;
   }
-
   .cart-delete-column__button {
     width: 25px;
   }
@@ -1455,12 +1355,10 @@ footer {
   #wrapper {
     width: 100%;
   }
-
   .about-us__content {
     text-align: center;
     display: block;
   }
-
   .about-us__content p {
     font-size: 40px;
   }
@@ -1469,7 +1367,6 @@ footer {
   #wrapper {
     width: 100%;
   }
-
   .about-us__content {
     text-align: center;
     display: block;
@@ -1479,7 +1376,6 @@ footer {
   #wrapper {
     width: 100%;
   }
-
   .about-us__content {
     text-align: center;
     display: block;
@@ -1570,11 +1466,9 @@ footer {
   #wrapper {
     width: 100%;
   }
-
   h2 {
     font-size: 48px;
   }
-
   .contact__form {
     margin: 0;
     justify-content: space-around;
@@ -1585,11 +1479,9 @@ footer {
   #wrapper {
     width: 100%;
   }
-
   h2 {
     font-size: 48px;
   }
-
   .contact__form {
     margin: 0;
     justify-content: space-around;
@@ -1600,7 +1492,6 @@ footer {
   #wrapper {
     width: 100%;
   }
-
   .contact__form {
     margin: 0;
     justify-content: space-around;
@@ -1627,34 +1518,27 @@ footer {
   #wrapper {
     width: 1277px;
   }
-
   .products-info-container {
     display: block;
   }
-
   .section-container {
     height: 1004px;
     width: 870px;
   }
-
   .section-topic {
     width: 867px;
   }
-
   .nav-principal ul {
     width: 1177px;
   }
-
   .search-input {
     display: flex;
     align-items: center;
     margin-left: 361px;
   }
-
   .option-product {
     left: 631px;
   }
-
   footer {
     width: 1229px;
   }
@@ -1663,33 +1547,26 @@ footer {
   #wrapper {
     width: 1331px;
   }
-
   .nav-principal ul {
     width: 1180px;
   }
-
   .search-input {
     display: flex;
     align-items: center;
     margin-left: 361px;
   }
-
   .section-topic {
     width: 1228px;
   }
-
   .products-info-container {
     width: 1302px;
   }
-
   .section-container {
     width: 1392px;
   }
-
   .option-product {
     left: 378px;
   }
-
   footer {
     width: 1263px;
   }
@@ -1698,33 +1575,26 @@ footer {
   #wrapper {
     width: 1331px;
   }
-
   .nav-principal ul {
     width: 1180px;
   }
-
   .search-input {
     display: flex;
     align-items: center;
     margin-left: 361px;
   }
-
   .section-topic {
     width: 1286px;
   }
-
   .products-info-container {
     width: 1302px;
   }
-
   .section-container {
     width: 1388px;
   }
-
   .option-product {
     left: 419px;
   }
-
   footer {
     width: 1263px;
   }
